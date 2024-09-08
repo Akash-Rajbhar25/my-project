@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input Forms - Timetable Generator</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="input-forms.js"></script> <!-- Link to your JavaScript file -->
+</head>
+<body>
+    <header>
+        <h1>Timetable Generator</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Homepage</a></li>
+                <li><a href="timetable-view.html">Timetable View</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Input Forms</h2>
+            <form id="subject-form">
+                <h3>Add Subject</h3>
+                <input type="text" id="subject-name" placeholder="Subject Name" required>
+                <button type="submit">Add Subject</button>
+            </form>
+            <form id="teacher-form">
+                <h3>Add Teacher</h3>
+                <input type="text" id="teacher-name" placeholder="Teacher Name" required>
+                <button type="submit">Add Teacher</button>
+            </form>
+            <form id="classroom-form">
+                <h3>Add Classroom</h3>
+                <input type="text" id="classroom-name" placeholder="Classroom Name" required>
+                <button type="submit">Add Classroom</button>
+            </form>
+            <form id="timeslot-form">
+                <h3>Add Time Slot</h3>
+                <input type="text" id="timeslot" placeholder="Time Slot (e.g., 9:00 AM - 10:00 AM)" required>
+                <button type="submit">Add Time Slot</button>
+            </form>
+        </section>
+    </main>
+    <div class="logo"></div>
+</body>
+</html>
