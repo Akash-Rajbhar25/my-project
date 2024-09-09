@@ -130,7 +130,7 @@ table th {
     width: 70px; /* Adjust the size as needed */
     height: 70px; /* Adjust the size as needed */
     background-color: #3498db; /* Fallback color, if needed */
-    background-image: url('image2.jpeg'); /* Path to your image file */
+    background-image: url('my-logo1.png'); /* Path to your image file */
     background-size: cover; /* Make sure the image covers the circle */
     background-position: center; /* Center the image within the circle */
     border-radius: 50%; /* This makes it a circle */
@@ -138,14 +138,19 @@ table th {
     top: 10px; /* Adjust the distance from the top */
     left: 10px; /* Adjust the distance from the left */
 }
-.phrase1 {
-    position: absolute; /* Allows positioning relative to the page */
-    font-weight: bolder;
-    left: 20px; /* Distance from the left side of the page */
-    width: 300px; /* Set a width for the section */
-    padding: 20px; /* Add some padding */
-    border-radius: 8px; /* Optional: Rounded corners for aesthetics */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Shadow for depth */
+/* Phrase styling */
+.phrase1, .phrase2 {
+    display: inline-block;
+    width: 300px; /* Default width, adjust if needed */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 0 10px; /* Space between phrases */
+}
+
+/* Adjust the width for the second phrase */
+.phrase2 {
+    width: 600px; /* Adjust if needed */
 }
 .reset-button{
     size: 3cm;
