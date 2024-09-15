@@ -9,10 +9,10 @@ body, h1, h2, h3, p, ul, li, form, table {
 
 /* General body styling */
 body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    background-image: url(image2.jpeg);
-    color: #333;
+    font-family:Georgia, 'Times New Roman', Times, serif Arial, sans-serif;
+    font-weight: bolder;
+    line-height: 1.5;
+    background-image: url(image12.png);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -21,7 +21,7 @@ body {
 
 /* Header styling */
 header {
-    background: #333;
+   background-image: url(image11.jpeg);
     color: #fff;
     padding: 1rem 0;
     text-align: center;
@@ -135,6 +135,7 @@ table th {
     background-position: center; /* Center the image within the circle */
     border-radius: 50%; /* This makes it a circle */
     position: fixed;
+    cursor: pointer;
     top: 10px; /* Adjust the distance from the top */
     left: 10px; /* Adjust the distance from the left */
 }
@@ -144,13 +145,13 @@ table th {
     width: 300px; /* Default width, adjust if needed */
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(18, 183, 208, 0.1);
     margin: 0 10px; /* Space between phrases */
 }
 
 /* Adjust the width for the second phrase */
 .phrase2 {
-    width: 600px; /* Adjust if needed */
+    width: 600px;
 }
 .reset-button{
     size: 3cm;
